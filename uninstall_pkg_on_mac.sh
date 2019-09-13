@@ -6,7 +6,8 @@
 # check input parameters
 if [ $# -lt 1 ]
 then
-    echo "Usage: $0 [package_name] "
+    echo "Usage: $0 [package_name]"
+    echo "Hint: execute command 'pkgutil --pkgs' to list all installed packages"
     exit 1
 fi
 
